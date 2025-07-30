@@ -57,23 +57,12 @@ ocean_isw_analysis/
    cd ocean_isw_analysis
    ```
 
-2. **建立並啟動虛擬環境 (建議)**
-   ```bash
-   # Windows
-   python -m venv venv
-   .\venv\Scripts\activate
-
-   # macOS / Linux
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
-
-3. **安裝所需套件**
+2. **安裝所需套件**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **準備資料**
+3. **準備資料**
    - 將原始的 `Output2.csv` 檔案放置於 `data/raw/` 資料夾下。
    - 將所有衛星影像 (`.png` 格式) 放置於 `data/raw/satellite_images/` 資料夾下。
 
