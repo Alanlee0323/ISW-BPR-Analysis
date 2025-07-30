@@ -10,4 +10,5 @@ venv/
 
 # Data files
 data/processed/
+data/raw/
 output/
